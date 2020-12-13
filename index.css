@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+background: rgb(44, 44, 44);
+color: #fff;
+font-family: 'Open+Sans', sans-serif;
+}
+
+table{
+  border: 2px solid rgb(77, 77, 77);
+  border-radius: 10px; 
+  background: rgb(44, 44, 44);
+  margin: 50px 50px 50px 50px;
+  width: 800px; 
+}
+
+td{
+  border-bottom: 2px solid rgb(77, 77, 77);
+}
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+.icons{
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px -2px 6  px;
+  filter: invert(1);
+}
+
+.icons-2{
+  width: 17px;
+  height: 17px;
+  margin: 0px 2px -3px 0px;
+  }
+
+.icons-3{
+    width: 30px;
+    height: 25px;
+    margin: 0px 5px -8px -5px;
+    }
+
+.column-1{
+  width: 350px;
+  padding: 12px;  
+}
+.column-2, .date{
+  width: 150px;
+  padding: 10px;
+  }
+.column-2{
+  color: rgb(98, 98,98);
+}
+.column-3, .column-3-table2{
+  width: 200px;
+  padding: 10px;
+  text-align: right;
+  font-size: 25px;
+}
+.column-3{
+  color: rgb(98, 98,98);
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.search{
+  background-color: rgb(68, 68, 68);
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin: -3px -3px -3px -3px;
+  background-image: url("https://www.flaticon.com/premium-icon/icons/svg/2811/2811790.svg");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  font-size: 15px;
+  padding: 0px 0px 0px 35px;
+  color: rgb(77, 77,77);
+}
