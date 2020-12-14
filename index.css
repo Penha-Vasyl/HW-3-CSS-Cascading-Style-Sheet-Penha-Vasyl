@@ -24,14 +24,17 @@ td{
 .icons{
   width: 12px;
   height: 12px;
-  margin: 0px 0px -2px 6  px;
+  margin: 0px 0px -2px 8px;
   filter: invert(1);
+}
+.icons.table-2{
+  margin: 0px 0px -2px 4px;
 }
 
 .icons-2{
   width: 17px;
   height: 17px;
-  margin: 0px 2px -3px 0px;
+  margin: 0px 5px -2px -2px;
   }
 
 .icons-3{
@@ -56,6 +59,7 @@ td{
   padding: 10px;
   text-align: right;
   font-size: 25px;
+  font-weight: bold;
 }
 .column-3{
   color: rgb(98, 98,98);
@@ -65,7 +69,12 @@ a{
   text-decoration: none;
   color: #fff;
 }
-
+.checkbox{
+  margin-right: 8px;
+}
+.header{
+  font-weight: bold;
+}
 
 .search{
   background-color: rgb(68, 68, 68);
@@ -79,5 +88,5 @@ a{
   background-position: 5px 5px;
   font-size: 15px;
   padding: 0px 0px 0px 35px;
-  color: rgb(77, 77,77);
+  color: #fff;
 }
